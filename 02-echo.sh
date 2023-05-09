@@ -8,5 +8,5 @@ echo Hello Worldd
 ## COLm - colour code - Red(31m), Green(32m), Yellow(33m), blue(34m), Magenta(35m), cyan(36m)
 ## \e[0m - Disable the colour. ( once we have to enable the colour we have to disable that, else colour follows to next lines)
 
-echo -e "\e[31mRED Colour"
+echo -e "\e[31mRED Colour\e[0m"
 echo Normal Text
