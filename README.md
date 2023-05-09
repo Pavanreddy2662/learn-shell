@@ -35,5 +35,6 @@ modify(change) some lines
 delete some words
         sed -i -e 's|Hello||g' passwd
 modify(substitute) some words
-    sed -i -e 's|bin|g' passwd
+    sed -i -e 's|bin|BIN|g' passwd
+sed -i -e '10s|bin|BIN|g' passwd
 instead of | we can use / , ?, :, ;, #, @
